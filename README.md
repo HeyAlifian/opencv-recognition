@@ -4,3 +4,11 @@ A hand, emotion recognition and object detection using mediapipe, deepface, and 
 ```bash
 pip install -r requirements.txt
 ```
+
+### Read Photo Only
+I have prepared the file for read photo only, which is called 'cv2-image.py' and you can also change the image file path to your own image.
+```python
+```
+
+### Live Camera Capture
+Run the 'cv2-cameracapture.py' file, and you're good to go.
