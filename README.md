@@ -6,8 +6,9 @@ pip install -r requirements.txt
 ```
 
 ### Read Photo Only
-I have prepared the file for read photo only, which is called 'cv2-image.py' and you can also change the image file path to your own image.
+I have prepared the file for read photo only, which is called 'cv2-image.py' and you can also change the image file path to your own image. Make sure that you have your image inside the correct path/folder, it will affect how the code executes.
 ```python
+image_path = 'images/image.jpg'  # Replace with your image path
 ```
 
 ### Live Camera Capture
