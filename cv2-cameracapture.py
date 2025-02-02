@@ -3,6 +3,7 @@ import tkinter as tk
 import pyautogui
 import numpy as np
 import cv2
+import colorama
 import mediapipe as mp
 from threading import Lock
 from deepface import DeepFace
@@ -25,6 +26,12 @@ opencv_configs = {
     "speechrecognition-debugging": True,
     "videocapture-label": True
 }
+
+colorama.init(autoreset=True)
+r = colorama.Fore.RED
+g = colorama.Fore.GREEN
+b = colorama.Fore.BLUE
+yellow = colorama.Fore.YELLOW
 
 prototxt_path = 'models/MobileNetSSD_deploy.prototxt'
 model_path = 'models/MobileNetSSD_deploy.caffemodel'
