@@ -42,7 +42,7 @@ min_confidence = 0.2
 classes = ["background", "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow",
            "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
 
-np.random.seed(999999)
+np.random.seed(123456789)
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
 
 net = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)
